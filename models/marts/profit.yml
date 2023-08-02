@@ -11,5 +11,3 @@ metrics:
     timestamp: order_date
     time_grains: [hour, day, week, month, year]
 
-    tags: ['piperider']
-

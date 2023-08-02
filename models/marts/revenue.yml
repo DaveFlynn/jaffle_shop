@@ -17,5 +17,3 @@ metrics:
         operator: '='
         value: "'completed'"
 
-    tags: ['piperider']
-
