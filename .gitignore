@@ -5,4 +5,5 @@ logs/
 venv/
 **/.DS_Store
 *.duckdb
-
+.user.yml
+.piperider
