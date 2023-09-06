@@ -34,7 +34,8 @@ customer_payments as (
 
     select
         orders.customer_id,
-        sum(amount)::bigint as total_amount
+        count(distinct payment_method) as methods,
+        sum(amount) as total_amount
 
     from payments
 
