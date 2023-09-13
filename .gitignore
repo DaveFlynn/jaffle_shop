@@ -6,3 +6,4 @@ venv/
 *.duckdb
 .user.yml
 .piperider
+dbt_packages
