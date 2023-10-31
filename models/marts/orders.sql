@@ -1,3 +1,6 @@
+{{ config(
+    tags=["finance"]
+) }}
 with orders as (
 
     select * from {{ ref('int_order_payments_pivoted') }}
